@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyCraft Tales</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Main Container */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #5d6d7e;
+            margin-left: 20px;
+            font-size: 14px;
+            text-transform: capitalize;
+        }
+
+        /* Hero Content */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            color: #2c3e50;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .btn-get-started {
+            background-color: #4a90e2;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        /* Image Styling */
+        .hero-image {
+            flex: 1;
+        }
+
+        .hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <span style="color: #4a90e2; margin-right: 10px;">≡</span> ToyCraft Tales
+            </div>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="story.html">Story</a>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-text">
+                <h1>ToyCraft Tales:<br>Tableau's Vision into<br>Toy Manufacturer Data</h1>
+                <a href="#" class="btn-get-started">Get Started →</a>
+            </div>
+            <div class="hero-image">
+                <img src="c:\Users\Sarnaya\Downloads\img1.jpeg" alt="Factory Floor">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

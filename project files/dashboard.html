@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyCraft Tales Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        /* Header */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 12px 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2b6cb0;
+        }
+
+        .menu a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .menu a:hover {
+            color: #2b6cb0;
+        }
+
+        /* Main container */
+        .container {
+            padding: 20px;
+        }
+
+        .dashboard-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 650px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 12px;
+            background-color: #ffffff;
+            margin-top: 20px;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="logo">ToyCraft Tales</div>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="story.html">Story</a>
+        </div>
+    </div>
+
+    <!-- Dashboard Section -->
+    <div class="container">
+        <div class="dashboard-box">
+            <iframe 
+    src="https://public.tableau.com/views/Book1_17712365619660/Dashboard1?:embed=y&:display_count=n&:showVizHome=n" width="100%" height="700" frameborder="0">
+</iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 ToyCraft Tales | Tableau Dashboard Integration
+    </div>
+
+</body>
+</html>
